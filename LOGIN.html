@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> LOGIN </title>
+    <link rel="preload" href="style6.css" as="style">
+    <link href="style6.css" rel="stylesheet">
+</head>
+<body>
+    <h1> LOGIN </h1>
+    <form action="LOGIN.php" method="POST">
+            <p>USER: <input type="text" name="usuario"/></p>
+            <p>PASSWORD: <input type=PASSWORD name="contrasena"/></p>
+            <p>
+            MODULO: 
+            <select name="modulo1">
+            <option selected value=""> Elige una opción </option>
+                <option value="USUARIOS">USUARIO </option>
+                <option value="CONTRASEÑA">CONTRASEÑA </option>
+                <option value="CONTROL"> CONTROL</option>
+                <option value="METEOROLOGICO"> METEOROLOGICO</option>
+                <optgroup label="PACIENTES"> 
+                <option value="INGRESO">INGRESO DE PACIENTE</option> 
+                <option value="ALTA">ALTA DE PACIENTE</option> 
+                <option value="MONITOREO">MONITOREO DE PACIENTE</option> 
+                <option value="BUSQUEDA">BUSQUEDA DE PACIENTE</option> 
+                <option value="REPORTE">REPORTE</option> 
+            </optgroup> 
+            </select>
+            </p>
+            <p><input type="submit"  value = "INGRESAR"/> </p>
+        </form>
+</body>
+</html>
+

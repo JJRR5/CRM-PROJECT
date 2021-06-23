@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MODULO CONTROL</title>
+    <link rel="preload" href="style4.css" as="style">
+    <link href="style4.css" rel="stylesheet">
+</head>
+<body>
+    <h1> ENFERMERIA </h1>
+    <form action="modulo_control_e.php" method="POST">
+    <p>
+            ACCIÓN:
+            <input list="accion" name="accion_e" onkeydown="return false"/></label>
+                <datalist id="accion">
+                <option value="CONSULTAR">
+                </datalist>
+    </p>
+    <p> GPIO  : <input type="text" name="gpio_e"/></p>
+            <p><input type="submit" value = "EJECUTAR"/> </p>
+        </form>
+</body>
+</html>

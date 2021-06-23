@@ -1,0 +1,41 @@
+p{
+    text-align:center;
+    color: black;
+    font-size:3rem;
+}
+body {
+    background:url('cielo.jpeg');
+    margin:0px;
+    font-family: 'Ubuntu', sans-serif;
+    background-size: 100%;
+}
+h1{
+    text-align:center;
+    color: black;
+    font-size:5rem;
+}
+input{
+    text-align:center;
+    color: black;
+    font-size:2rem;
+}
+datalist{
+    text-align:center;
+    color: black;
+    font-size:1rem;
+}
+option{
+    text-align:center;
+    color: black;
+    font-size:1rem;
+}
+label{
+    text-align:center;
+    color: black;
+    font-size:2rem;
+}
+select{
+    text-align:center;
+    color: black;
+    font-size:2rem;
+}

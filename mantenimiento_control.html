@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MODULO CONTROL</title>
+    <link rel="preload" href="style4.css" as="style">
+    <link href="style4.css" rel="stylesheet">
+</head>
+<body>
+    <h1> MANTENIMIENTO </h1>
+    <form action="modulo_control_m.php" method="POST">
+    <p>
+            ACCIÓN:
+            <input list="accion" name="accion_m" onkeydown="return false"/></label>
+                <datalist id="accion">
+                <option value="ALTA">
+                <option value="MODIFICAR">
+                <option value="CONSULTAR">
+                </datalist>
+    </p>
+    <p>
+            TIPO(ALTA): 
+            <select name="tipo_a">
+            <option selected value=""> Elige una opción </option>
+                <option value="Sin uso">SIN USO </option>
+                <option value="Entrada">ENTRADA </option>
+                <option value="PWM"> PWM</option>
+                <option value="Salida">SALIDA</option>
+            </select>
+    </p>   
+    <p>
+            SALIDA:
+            <input list="campo" name="salida_m" onkeydown="return false"/></label>
+                <datalist id="campo">
+                <option value="ENCENDIDO">
+                <option value="APAGADO">
+                </datalist>
+    </p>
+    <p> %PWM: <input type="text" name="pwm_m"/></p>
+    <p> GPIO  : <input type="text" name="gpio_m"/></p>
+            <p><input type="submit" value = "EJECUTAR"/> </p>
+        </form>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MODULO USUARIOS</title>
+    <link rel="preload" href="style.css" as="style">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1> MANTENIMIENTO </h1>
+    <form action="modulo_usuarios.php" method="POST">
+    <p>
+            ACCIÓN :
+            <input list="accion" name="accion_m" onkeydown="return false"/></label>
+                <datalist id="accion">
+                <option value="BAJA">
+                <option value="MODIFICAR">
+                <option value="CONSULTAR">
+                </datalist>
+    </p>
+    <p>
+            CAMPO:
+            <input list="campo" name="campo_m" onkeydown="return false"/></label>
+                <datalist id="campo">
+                <option value="ID">
+                <option value="USUARIO">
+                <option value="NOMBRE COMPLETO">
+                <option value="DOMICILIO">
+                <option value="TELEFONO">
+                <option value="CONTACTO">
+                <option value="NIVEL DE USUARIO">
+                <option value="TURNO">
+                </datalist>
+    </p>
+    <p> USUARIO : <input type="text" name="usuario_m"/></p>
+    <p>  NUEVO VALOR : <input type="text" name="valor_m"/></p>
+            <p><input type="submit" value = "EJECUTAR"/> </p>
+        </form>
+</body>
+</html>

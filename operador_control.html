@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MODULO CONTROL</title>
+    <link rel="preload" href="style4.css" as="style">
+    <link href="style4.css" rel="stylesheet">
+</head>
+<body>
+    <h1> OPERADOR </h1>
+    <form action="modulo_control_o.php" method="POST">
+    <p>
+            ACCIÓN:
+            <input list="accion" name="accion_o" onkeydown="return false"/></label>
+                <datalist id="accion">
+                <option value="MODIFICAR">
+                <option value="CONSULTAR">
+                </datalist>
+    </p>
+    <p>
+            SALIDA:
+            <input list="campo" name="salida_o" onkeydown="return false"/></label>
+                <datalist id="campo">
+                <option value="ENCENDIDO">
+                <option value="APAGADO">
+                </datalist>
+    </p>
+    <p> %PWM: <input type="text" name="pwm_o"/></p>
+    <p> GPIO: <input type="text" name="gpio_o"/></p>
+            <p><input type="submit" value = "EJECUTAR"/> </p>
+        </form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MODULO USUARIO</title>
+    <link rel="preload" href="style.css" as="style">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1> OPERADOR </h1>
+    <form action="modulo_usuarios.php" method="POST">
+    <p>
+            <label>ACCIÓN:
+            <input list="accion" name="accion_o" onkeydown="return false"/></label>
+                <datalist id="accion">
+                <option value="CONSULTAR">
+                </datalist>
+    </p>
+    <p> <label>USUARIO : <input type="text" name="usuario_o"/></p>
+            <p><input type="submit" value = "EJECUTAR"/> </p>
+        </form>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ADMINISTRADOR</title>
+    <link rel="preload" href="style.css" as="style">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1> ADMINISTRADOR </h1>
+    <form action="PROYECTO.php" method="POST">
+    <p>
+            <label>SELECCIONE LA ACCIÓN QUE DESEA REALIZAR:
+            <input list="accion" name="accion" onkeydown="return false"/></label>
+                <datalist id="accion">
+                <option value="ALTA">
+                <option value="BAJA">
+                <option value="MODIFICAR">
+                <option value="CONSULTAR">
+                </datalist>
+    </p>
+    <p>
+            <label>SELECCIONE LA COLUMNA QUE DESEÉ :
+            <input list="columna" name="columna" onkeydown="return false"/></label>
+                <datalist id="columna">
+                <option value="ID">
+                <option value="USUARIO">
+                <option value="CONTRASEÑA">
+                <option value="NOMBRE_COMPLETO">
+                <option value="DOMICILIO">
+                <option value="TELEFONO">
+                <option value="CONTACTO">
+                <option value="NIVEL_USUARIO">
+                <option value="TURNO">
+                </datalist>
+    </p>
+    <p> <label>VALOR : <input type="text" name="valor"/></p>
+            <p><input type="submit" value = "EJECUTAR"/> </p>
+        </form>
+</body>
+</html>
