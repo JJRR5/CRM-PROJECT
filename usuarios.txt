@@ -1,0 +1,5 @@
+USUARIO  PASSWORD  NIVEL 
+JOSE        15      Administrador
+CHITO        1      Mantenimiento
+CRISTIAN     10     Enfermeria 
+PAOLA        14     Operadora

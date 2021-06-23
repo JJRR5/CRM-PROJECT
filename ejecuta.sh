@@ -1,0 +1,1 @@
+sudo python3 /home/pi/Proyecto_Final_JJRR_JAAA/CONTROL.py
